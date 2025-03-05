@@ -1,4 +1,4 @@
-# Captcha for Laravel 10/11
+# Captcha for Laravel 12
 
 [![Build Status](https://travis-ci.org/mewebstudio/captcha.svg?branch=master)](https://travis-ci.org/mewebstudio/captcha) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/mewebstudio/captcha/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/mewebstudio/captcha/?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/mews/captcha/v/stable.svg)](https://packagist.org/packages/mews/captcha)
@@ -6,16 +6,14 @@
 [![License](https://poser.pugx.org/mews/captcha/license.svg)](https://packagist.org/packages/mews/captcha)
 [![Total Downloads](https://poser.pugx.org/mews/captcha/downloads.svg)](https://packagist.org/packages/mews/captcha)
 
-A simple [Laravel 5/6](http://www.laravel.com/) service provider for including the [Captcha for Laravel](https://github.com/mewebstudio/captcha).
+A simple [Laravel 12](http://www.laravel.com/) service provider for including the [Captcha for Laravel](https://github.com/mewebstudio/captcha).
 
-for Laravel 4 [Captcha for Laravel Laravel 4](https://github.com/mewebstudio/captcha/tree/master-l4)
-
-for Laravel 5 to 9 [Captcha for Laravel Laravel 4](https://github.com/mewebstudio/captcha/tree/master-l5-l9)
+for Laravel 12 [Captcha for Laravel Laravel 12](https://github.com/mewebstudio/captcha/tree/master-l5-l9)
 
 ## Preview
 ![Preview](https://image.ibb.co/kZxMLm/image.png)
 
-- [Captcha for Laravel 5/6/7](#captcha-for-laravel-5-6-7)
+- [Captcha for Laravel 11/12](#captcha-for-laravel-5-6-7)
   * [Preview](#preview)
   * [Installation](#installation)
   * [Usage](#usage)
@@ -34,7 +32,7 @@ for Laravel 5 to 9 [Captcha for Laravel Laravel 4](https://github.com/mewebstudi
 ## Installation
 
 The Captcha Service Provider can be installed via [Composer](http://getcomposer.org) by requiring the
-`mews/captcha` package and setting the `minimum-stability` to `dev` (required for Laravel 5) in your
+`mews/captcha` package and setting the `minimum-stability` to `dev` (required for Laravel 5 and upper) in your
 project's `composer.json`.
 
 ```json
